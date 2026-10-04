@@ -1,0 +1,118 @@
+* {
+    /* Tokyo Night */
+    background: #16161e;
+    background-alt: #1a1b26;
+    background-hover: #24283b;
+
+    foreground: #c0caf5;
+    foreground-alt: #a9b1d6;
+
+    blue: #7aa2f7;
+    purple: #bb9af7;
+
+    border-color: #414868;
+
+    font: "SpaceMono Nerd Font 11";
+}
+
+window {
+    width: 600px;
+
+    background-color: @background;
+
+    border: 0px;
+    border-radius: 14px;
+
+    padding: 18px;
+}
+
+mainbox {
+    background-color: transparent;
+
+    spacing: 12px;
+
+    children: [
+        inputbar,
+        listview
+    ];
+}
+
+inputbar {
+    background-color: @background-alt;
+
+    border: 0px;
+    border-radius: 10px;
+
+    padding: 10px 14px;
+
+    spacing: 10px;
+}
+
+prompt {
+    background-color: transparent;
+
+    text-color: @blue;
+}
+
+entry {
+    background-color: transparent;
+
+    text-color: @foreground;
+
+    placeholder-color: #565f89;
+}
+
+listview {
+    background-color: transparent;
+
+    lines: 8;
+    columns: 1;
+
+    spacing: 4px;
+
+    scrollbar: false;
+}
+
+element {
+    background-color: transparent;
+
+    border-radius: 9px;
+
+    padding: 10px;
+}
+
+element normal {
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+element alternate {
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+element selected {
+    background-color: @background-hover;
+
+    text-color: @blue;
+}
+
+element selected active {
+    background-color: @background-hover;
+
+    text-color: @purple;
+}
+
+element-icon {
+    background-color: transparent;
+
+    size: 28px;
+
+    margin: 0px 12px 0px 0px;
+}
+
+element-text {
+    background-color: transparent;
+
+    text-color: inherit;
+}

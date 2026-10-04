@@ -1,0 +1,52 @@
+format = """
+$username$hostname $directory$git_branch$git_status $character"""
+
+add_newline = true
+
+[username]
+show_always = true
+style_user = "bold #7aa2f7"
+style_root = "bold #f7768e"
+format = "[$user]($style)"
+
+[hostname]
+ssh_only = false
+style = "bold #bb9af7"
+format = "[@$hostname]($style)"
+
+[directory]
+style = "bold #c0caf5"
+format = "[$path]($style)"
+truncation_length = 3
+truncate_to_repo = false
+home_symbol = "~"
+
+[git_branch]
+symbol = " "
+style = "bold #bb9af7"
+format = " [$symbol$branch]($style)"
+
+[git_status]
+style = "#f7768e"
+format = " [$all_status$ahead_behind]($style)"
+
+[character]
+success_symbol = "[❯](bold #7aa2f7)"
+error_symbol = "[❯](bold #f7768e)"
+vimcmd_symbol = "[❮](bold #bb9af7)"
+
+[cmd_duration]
+min_time = 2_000
+format = " [$duration](#565f89)"
+
+[python]
+symbol = " "
+format = "[$symbol$version](#7dcfff) "
+
+[nodejs]
+symbol = " "
+format = "[$symbol$version](#73daca) "
+
+[java]
+symbol = " "
+format = "[$symbol$version](#e0af68) "

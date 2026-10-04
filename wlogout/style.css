@@ -1,0 +1,72 @@
+* {
+    background-image: none;
+    font-family: "SpaceMono Nerd Font";
+}
+
+window {
+    background-color: rgba(22, 22, 30, 0.92);
+}
+
+button {
+    color: #c0caf5;
+    background-color: #1a1b26;
+
+    border: 2px solid transparent;
+    border-radius: 14px;
+
+    margin: 12px;
+    padding: 25px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 64px;
+
+    box-shadow: none;
+    text-shadow: none;
+
+    transition:
+        background-color 0.15s ease,
+        border-color 0.15s ease,
+        color 0.15s ease;
+}
+
+button:hover {
+    background-color: #24283b;
+    border-color: #7aa2f7;
+    color: #7aa2f7;
+}
+
+button:focus {
+    background-color: #24283b;
+    border-color: #bb9af7;
+    color: #bb9af7;
+    outline: none;
+}
+
+/* =========================================================
+   ÍCONES
+   ========================================================= */
+
+#lock {
+    background-image: url("/usr/share/wlogout/icons/lock.png");
+}
+
+#suspend {
+    background-image: url("/usr/share/wlogout/icons/suspend.png");
+}
+
+#logout {
+    background-image: url("/usr/share/wlogout/icons/logout.png");
+}
+
+#reboot {
+    background-image: url("/usr/share/wlogout/icons/reboot.png");
+}
+
+#shutdown {
+    background-image: url("/usr/share/wlogout/icons/shutdown.png");
+}
+
+#hibernate {
+    background-image: url("/usr/share/wlogout/icons/hibernate.png");
+}

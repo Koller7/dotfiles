@@ -1,0 +1,89 @@
+{
+    "logo": {
+        "type": "file",
+        "source": "/home/koller/.config/fastfetch/logo.txt",
+        "padding": {
+            "top": 1,
+            "right": 4
+        },
+        "color": {
+            "1": "#c0caf5",
+            "2": "#c0caf5",
+            "3": "#c0caf5",
+            "4": "#c0caf5",
+            "5": "#c0caf5",
+            "6": "#c0caf5"
+        }
+    },
+
+    "display": {
+        "separator": "  "
+    },
+
+    "modules": [
+        {
+            "type": "title",
+            "format": "{user-name}@{host-name}"
+        },
+
+        "separator",
+
+        {
+            "type": "os",
+            "key": "󰣇 OS",
+            "keyColor": "#7aa2f7"
+        },
+        {
+            "type": "host",
+            "key": "󰌢 Host",
+            "keyColor": "#bb9af7"
+        },
+        {
+            "type": "kernel",
+            "key": "󰒔 Kernel",
+            "keyColor": "#7aa2f7"
+        },
+        {
+            "type": "uptime",
+            "key": "󰅐 Uptime",
+            "keyColor": "#bb9af7"
+        },
+        {
+            "type": "packages",
+            "key": "󰏖 Packages",
+            "keyColor": "#7aa2f7"
+        },
+        {
+            "type": "shell",
+            "key": " Shell",
+            "keyColor": "#bb9af7"
+        },
+        {
+            "type": "wm",
+            "key": " WM",
+            "keyColor": "#7aa2f7"
+        },
+        {
+            "type": "terminal",
+            "key": " Terminal",
+            "keyColor": "#bb9af7"
+        },
+        {
+            "type": "cpu",
+            "key": " CPU",
+            "keyColor": "#7aa2f7"
+        },
+        {
+            "type": "memory",
+            "key": "󰍛 Memory",
+            "keyColor": "#bb9af7"
+        },
+        {
+            "type": "battery",
+            "key": "󰁹 Battery",
+            "keyColor": "#7aa2f7"
+        },
+
+        "break"
+    ]
+}
